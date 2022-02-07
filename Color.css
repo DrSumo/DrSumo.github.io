@@ -1,3 +1,130 @@
- Body { 
+
+
+Body { 
 	background: #8e44ad;
 }
+
+#by {
+	padding-left: 750px;
+	padding-bottom: 75px;
+	color: white;
+}
+
+#navbar {
+	overflow: hidden;
+	background: #5D0669;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -10px;
+}
+
+#navbar ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: #5D0669;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#top {
+	display: inline-grid;
+		height: 1200px; 
+		width: 1200px;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	grid-column-gap: 80px;
+	grid-row-gap: 100px;
+	padding-left: 50px;
+	font-size: 40px;
+	color: #00cc00;
+}
+
+#gems {
+	color: #00cc00;
+}
+
+#bio{
+	margin: 0px;
+	grid-row: 1;
+	border-style: dashed;
+	border-color: whitesmoke;
+}
+
+#biophoto {
+	grid-column: 2;
+	border-style: dashed;
+	border-color: whitesmoke;
+}
+
+#interests {
+	margin: 0px;
+	grid-row: 2;
+	grid-column: 2;
+	border-style: dashed;
+	border-color: whitesmoke;
+}
+
+#vid{
+	margin: 0px;
+	grid-row: 2;
+	border-style: dashed;
+	border-color: whitesmoke;
+}
+
+#bot {
+	display: inline-grid;
+		height: 750px; 
+		width: 1200px;
+	grid-template-columns: 34% 33% 33%;
+	grid-template-rows: 45% 55%;
+	grid-column-gap: 50px;
+	grid-row-gap: 100px;
+	padding-left: 50px;
+	padding-top: 150px;
+	font-size: 40px;
+	color: #00cc00;
+}
+
+#goals {
+	grid-column: 1 / span 3;
+}
+
+#walter {
+	grid-row: 2;
+}
+
+#ken {
+	grid-row: 2;
+	grid-column: 3;
+	float: right;
+	padding-left: 75px;
+}
+
+
+h1 {
+	color:  white;
+	font-family: 'Yellowtail', cursive;
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: none;
+ }
+
+ 
+
